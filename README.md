@@ -27,4 +27,19 @@ Designed for interior studios, architecture firms, and personal portfolio use.
 
 ---
 
-## 📂 Folder Structure
+## 📱 Responsive Design
+Fully responsive and tested on:
+- Mobile devices (Android, iPhone)
+- Tablets (iPad, Galaxy Tab)
+- Desktops and large screens
+
+---
+
+## 💡 Author
+👩‍💻 **Dream Queen Sumi Islam**  
+💬 Frontend Developer | Creative Designer  
+📧 [Add your email or portfolio link]
+
+---
+
+⭐ **If you like this project, don’t forget to star the repo!**
