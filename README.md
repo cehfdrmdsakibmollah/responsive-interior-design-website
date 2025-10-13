@@ -25,6 +25,12 @@ Designed for interior studios, architecture firms, and personal portfolio use.
 ## 🚀 Live Preview
 👉 [Demo Link](#) *(Add your GitHub Pages link here once uploaded)*
 
+#Figma:
+
+https://www.figma.com/design/yOt7G7fVHCZfOBYlbmNCXG/Interior-Design-Website-UI-Template--Community-?node-id=1-4&t=KPo265NtQch7U6tc-1
+
+
+
 ---
 
 ## 📱 Responsive Design
