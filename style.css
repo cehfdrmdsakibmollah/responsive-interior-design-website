@@ -23,6 +23,13 @@ body{
     margin: 0 auto;
 }
 
+h1{
+    font-size: 133px;
+    font-weight: 500;
+    color: var(--button-color);
+    line-height: 100%;
+}
+
 h2{
     font-size: 58px;
     font-weight: 600;
@@ -81,6 +88,8 @@ h4{
 }
 
 
+
+
 /* common css end here  */
 
 nav{
@@ -130,4 +139,28 @@ nav{
     color: var(--primary-color);
     font-weight: 600;
     font-size: 22px;
+}
+
+/* bannar part start here  */
+
+.pBan{
+    max-width: 755px ;
+}
+
+.secbanner{
+    padding: 133px 0 170px 0; 
+}
+
+.gbtn{
+    width: 275px;
+    height: 80px;
+    background-color: #1F1F1F;
+    color: var(--primary-color);
+    border-radius: 4px;
+    margin-top: 50px;
+    
+}
+
+h3{
+    font-size: 70px;
 }
