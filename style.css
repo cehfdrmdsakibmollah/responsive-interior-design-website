@@ -23,6 +23,13 @@ body{
     margin: 0 auto;
 }
 
+h1{
+    font-size: 133px;
+    font-weight: 500;
+    color: var(--button-color);
+    line-height: 100%;
+}
+
 h2{
     font-size: 58px;
     font-weight: 600;
@@ -80,17 +87,6 @@ h4{
     
 }
 
-.gbtn{
-    width: 275px;
-    height: 80px;
-    color: var(--primary-color);
-    background-color: var(--button-color);
-    border-radius: 10px;
-    font-size: 24px;
-    font-weight: 600;
-} 
-
-
 /* common css end here  */
 
 nav{
@@ -141,10 +137,3 @@ nav{
     font-weight: 600;
     font-size: 22px;
 }
-
-
-/* section three start here  */
-
-
-
-/* section three end here  */
