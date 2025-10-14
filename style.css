@@ -69,6 +69,18 @@ p{
     align-items: center;
 }
 
+.flex-col{
+    flex-direction: column;
+}
+
+.gap-x-85px{
+    column-gap: 85px;
+}
+
+.gap-10px{
+    gap: 10px;
+}
+
 .section-py{
     padding: 240px 0;
 }
@@ -102,11 +114,20 @@ h4{
     font-weight: 600;
 }
 
+.font-regular{
+    font-weight: 400;
+}
+
+.font-medium{
+    font-weight: 500;
+}
+
 .border-bottom{
     border-bottom: 2px solid var(--white-small);
     /* padding-bottom: 15px; */
     
 }
+
 
 /* common css end here  */
 
@@ -168,5 +189,16 @@ nav{
 .pBan{
     max-width: 755px;
 }
+
+.banBtn{
+    margin: 80px 0;
+}
+
+.banspan{
+    font-size: 20px;
+    font-weight: 500;
+    color: var(--gray-color);
+}
+
 
 /* baner part end here */
