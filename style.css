@@ -80,6 +80,16 @@ h4{
     
 }
 
+.gbtn{
+    width: 275px;
+    height: 80px;
+    color: var(--primary-color);
+    background-color: var(--button-color);
+    border-radius: 10px;
+    font-size: 24px;
+    font-weight: 600;
+} 
+
 
 /* common css end here  */
 
@@ -131,3 +141,10 @@ nav{
     font-weight: 600;
     font-size: 22px;
 }
+
+
+/* section three start here  */
+
+
+
+/* section three end here  */
