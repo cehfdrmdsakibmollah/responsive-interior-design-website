@@ -47,6 +47,16 @@ p{
     line-height: 165%;
 }
 
+.gbtn{
+    width: 275px;
+    height: 75px;
+    background-color: var(--button-color);
+    font-size: 24px;
+    font-weight: 600;
+    color: var(--primary-color);
+    border-radius: 4px;
+}
+
 .flex{
     display: flex;
 }
@@ -69,12 +79,23 @@ h4{
     color: var(--button-color);
 }
 
+.text-gray{
+    color: var(--gray-color);
+}
+
 .text-darkGray{
     color: var(--button-color)
 }
 
 .text-24px{
     font-size: 24px; 
+}
+.text-22px{
+    font-size: 22px; 
+}
+
+.text-70px{
+    font-size: 70px; 
 }
 
 .font-semibold{
@@ -137,3 +158,15 @@ nav{
     font-weight: 600;
     font-size: 22px;
 }
+
+/* baner part start here */
+
+.secbanner{
+    padding-top: 130px;
+}
+
+.pBan{
+    max-width: 755px;
+}
+
+/* baner part end here */
