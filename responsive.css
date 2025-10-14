@@ -1,0 +1,350 @@
+/* =====================================================
+   ✅ FULL RESPONSIVE CSS FOR ALL DEVICES
+   (Compatible with your existing layout)
+   ===================================================== */
+
+/* --------------- Large screens (Desktops, 1920px+) --------------- */
+@media (min-width: 1600px) {
+  .container {
+    max-width: 1520px;
+  }
+
+  h1 {
+    font-size: 140px;
+  }
+
+  h2 {
+    font-size: 64px;
+  }
+
+  p {
+    font-size: 26px;
+  }
+
+  .gbtn {
+    width: 300px;
+    height: 80px;
+    font-size: 26px;
+  }
+
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+}
+
+/* --------------- Laptops (1280px – 1599px) --------------- */
+@media (max-width: 1599px) {
+  .container {
+    max-width: 90%;
+  }
+
+  h1 {
+    font-size: 110px;
+  }
+
+  h2 {
+    font-size: 52px;
+  }
+
+  p {
+    font-size: 22px;
+  }
+
+  .text-70px {
+    font-size: 55px;
+  }
+
+  .gbtn {
+    width: 240px;
+    height: 65px;
+    font-size: 22px;
+  }
+
+  .secbanner img {
+    width: 90%;
+  }
+}
+
+/* --------------- Tablets (992px – 1279px) --------------- */
+@media (max-width: 1279px) {
+  .container {
+    max-width: 92%;
+  }
+
+  nav {
+    padding-top: 30px;
+  }
+
+  .navUl ul {
+    gap: 35px;
+  }
+
+  h1 {
+    font-size: 80px;
+  }
+
+  h2 {
+    font-size: 42px;
+  }
+
+  p {
+    font-size: 20px;
+  }
+
+  .text-70px {
+    font-size: 48px;
+  }
+
+  .gbtn {
+    width: 210px;
+    height: 60px;
+    font-size: 20px;
+  }
+
+  .section-py {
+    padding: 160px 0;
+  }
+
+  .secbanner .flex {
+    flex-wrap: wrap;
+    gap: 50px;
+  }
+
+  .secbanner img {
+    width: 100%;
+    max-width: 600px;
+  }
+}
+
+/* --------------- Tablets / Large Phones (768px – 991px) --------------- */
+@media (max-width: 991px) {
+  nav .flex {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+  }
+
+  .navUl ul {
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .navBtn {
+    width: 150px;
+    height: 50px;
+    font-size: 18px;
+  }
+
+  h1 {
+    font-size: 60px;
+  }
+
+  h2 {
+    font-size: 36px;
+  }
+
+  p {
+    font-size: 18px;
+  }
+
+  .secbanner .flex {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .secbanner img {
+    width: 100%;
+  }
+
+  .banBtn {
+    margin: 40px auto;
+  }
+
+  .gap-x-85px {
+    column-gap: 40px;
+  }
+
+  .text-70px {
+    font-size: 40px;
+  }
+
+  .section-py {
+    padding: 120px 0;
+  }
+
+  .border-bottom {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+  }
+
+  .flex.justify-between {
+    flex-direction: column;
+    gap: 40px;
+  }
+}
+
+/* --------------- Mobile Devices (481px – 767px) --------------- */
+@media (max-width: 767px) {
+  .container {
+    max-width: 92%;
+  }
+
+  h1 {
+    font-size: 48px;
+    line-height: 110%;
+  }
+
+  h2 {
+    font-size: 30px;
+  }
+
+  p {
+    font-size: 16px;
+  }
+
+  .gbtn {
+    width: 180px;
+    height: 50px;
+    font-size: 18px;
+  }
+
+  nav .flex {
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .navUl ul {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .navBtn {
+    width: 130px;
+    height: 45px;
+  }
+
+  .secbanner {
+    padding-top: 80px;
+  }
+
+  .secbanner .flex {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .flex.justify-between {
+    flex-direction: column;
+  }
+
+  .text-70px {
+    font-size: 32px;
+  }
+
+  .banspan {
+    font-size: 16px;
+  }
+
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  .section-py {
+    padding: 80px 0;
+  }
+
+  .gap-x-85px {
+    column-gap: 20px;
+  }
+
+  .border-bottom {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+  }
+}
+
+/* --------------- Small Phones (max-width: 480px) --------------- */
+@media (max-width: 480px) {
+  h1 {
+    font-size: 38px;
+  }
+
+  h2 {
+    font-size: 26px;
+  }
+
+  p {
+    font-size: 15px;
+  }
+
+  .gbtn {
+    width: 160px;
+    height: 45px;
+    font-size: 16px;
+  }
+
+  .navUl ul {
+    gap: 10px;
+  }
+
+  .navBtn {
+    width: 120px;
+    height: 40px;
+    font-size: 16px;
+  }
+
+  .secbanner {
+    padding-top: 60px;
+  }
+
+  .banBtn {
+    margin: 30px auto;
+  }
+
+  .text-70px {
+    font-size: 28px;
+  }
+
+  .banspan {
+    font-size: 14px;
+  }
+
+  .section-py {
+    padding: 60px 0;
+  }
+}
+
+/* --------------- Ultra small screens (below 360px) --------------- */
+@media (max-width: 360px) {
+  h1 {
+    font-size: 32px;
+  }
+
+  h2 {
+    font-size: 22px;
+  }
+
+  p {
+    font-size: 14px;
+  }
+
+  .gbtn {
+    width: 140px;
+    height: 40px;
+    font-size: 15px;
+  }
+
+  .navBtn {
+    width: 100px;
+    height: 35px;
+    font-size: 14px;
+  }
+
+  .text-70px {
+    font-size: 24px;
+  }
+}
